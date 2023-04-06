@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Gazprom</title>
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <a href="javascript:void(0)" class="header-profile">
+            <div class="icon header-profile__icon">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 0C4.928 0 0 4.928 0 11C0 17.072 4.928 22 11 22C17.072 22 22 17.072 22 11C22 4.928 17.072 0 11 0ZM11 4.4C13.123 4.4 14.85 6.127 14.85 8.25C14.85 10.373 13.123 12.1 11 12.1C8.877 12.1 7.15 10.373 7.15 8.25C7.15 6.127 8.877 4.4 11 4.4ZM11 19.8C8.767 19.8 6.127 18.898 4.246 16.632C6.105 15.18 8.448 14.3 11 14.3C13.552 14.3 15.895 15.18 17.754 16.632C15.873 18.898 13.233 19.8 11 19.8Z" fill="#0078D2"/>
+                </svg>
+            </div>
+            <div>Профиль</div>
+            <div class="icon header-profile__arrow">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97489 6.00004L5.00001 9.97491L4.29291 9.26781L7.56067 6.00004L4.29291 2.73228L5.00002 2.02517L8.97489 6.00004Z" fill="white"/>
+                </svg>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="header-notifications">
+            <div class="icon header-notifications__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C13.1 22 14 21.1 14 20H10C10 21.1 10.9 22 12 22ZM18 16V11C18 7.93 16.37 5.36 13.5 4.68V4C13.5 3.17 12.83 2.5 12 2.5C11.17 2.5 10.5 3.17 10.5 4V4.68C7.64 5.36 6 7.92 6 11V16L4 18V19H20V18L18 16ZM16 17H8V11C8 8.52 9.51 6.5 12 6.5C14.49 6.5 16 8.52 16 11V17Z" fill="#0078D2"/>
+                </svg>
+            </div>
+            <div class="counter header-notifications__counter">3</div>
+        </a>
+    </div>
+</header>
+
+<main class="main">
+    <div class="category">
+        <div class="container">
+            <div class="swiper category__swiper">
+                <div class="swiper-wrapper">
+                    <a href="javascript:void(0)" class="swiper-slide category__item" onclick="openModal()">
+                        <div class="category__img">
+                            <svg width="40" height="45" viewBox="0 0 40 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.5556 4.44444H33.3333V0H28.8889V4.44444H11.1111V0H6.66667V4.44444H4.44444C1.97778 4.44444 0.0222222 6.44444 0.0222222 8.88889L0 40C0 42.4444 1.97778 44.4444 4.44444 44.4444H35.5556C38 44.4444 40 42.4444 40 40V8.88889C40 6.44444 38 4.44444 35.5556 4.44444ZM35.5556 40H4.44444V17.7778H35.5556V40ZM13.3333 26.6667H8.88889V22.2222H13.3333V26.6667ZM22.2222 26.6667H17.7778V22.2222H22.2222V26.6667ZM31.1111 26.6667H26.6667V22.2222H31.1111V26.6667ZM13.3333 35.5556H8.88889V31.1111H13.3333V35.5556ZM22.2222 35.5556H17.7778V31.1111H22.2222V35.5556ZM31.1111 35.5556H26.6667V31.1111H31.1111V35.5556Z" fill="url(#paint0_linear_101_5343)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_101_5343" x1="-3.07692" y1="2.22256" x2="35.8974" y2="49.402" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7DAEEB"/>
+                                        <stop offset="1" stop-color="#3E7CCE"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="category__name">График работы</div>
+                    </a>
+                    <a href="javascript:void(0)" class="swiper-slide category__item" onclick="openModal()">
+                        <div class="category__img">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M39.1111 9.77814H14.6667C11.9782 9.77814 9.77824 11.9777 9.77824 14.6661V39.1098C9.77824 41.7982 11.9782 43.9986 14.6676 43.9986H39.1111C41.7996 43.9986 44 41.7991 44 39.1098L43.9991 14.6661C43.9991 11.9777 41.7996 9.77814 39.1111 9.77814ZM39.1111 14.6661V19.5554H14.6667V14.6661H39.1111ZM24.4449 29.3326V24.4433L29.3329 24.4442V29.3335L24.4449 29.3326ZM29.3329 34.2214V39.1107H24.4449V34.2214H29.3329ZM19.5556 29.3326H14.6667V24.4433L19.5556 24.4442V29.3326ZM34.2218 24.4442H39.1111V29.3335L34.2218 29.3326V24.4442ZM14.6667 34.2214H19.5556V39.1107H14.6667V34.2214ZM34.2218 39.1107V34.2214H39.1111V39.1107H34.2218ZM7.33378 34.2214H4.88936C2.20092 34.2214 0 32.0219 0 29.3326L0.000921511 4.88885C0.000921511 2.20044 2.2009 0 4.89024 0L29.3329 0.000899561C32.0213 0.000899561 34.2218 2.20044 34.2218 4.88975V7.3346L29.3329 7.3337V4.88885H4.88936V29.3326H7.33378V34.2214Z" fill="url(#paint0_linear_101_5348)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_101_5348" x1="-3.38462" y1="2.20026" x2="34.2398" y2="52.8077" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7DAEEB"/>
+                                        <stop offset="1" stop-color="#3E7CCE"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="category__name">Расчетный лист</div>
+                    </a>
+                    <a href="javascript:void(0)" class="swiper-slide category__item">
+                        <div class="category__img">
+                            <svg width="58" height="40" viewBox="0 0 58 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.3333 22.413C24.5861 22.413 29.2259 23.6697 32.9951 25.3127C36.4757 26.8594 38.6667 30.34 38.6667 34.1092V39.3299H0V34.1422C0 30.34 2.19095 26.8594 5.67156 25.3457C9.44083 23.6697 14.081 22.413 19.3333 22.413ZM45.1115 23.2194C48.6554 23.2194 51.5565 20.3197 51.5565 16.7745C51.5565 13.2307 48.6568 10.3297 45.1115 10.3297C41.5663 10.3297 38.6667 13.2294 38.6667 16.7745C38.6667 20.3197 41.5663 23.2194 45.1115 23.2194ZM58 34.2709C58 31.6613 56.4533 29.3412 54.0685 28.3099C51.3297 27.1178 48.3008 26.4415 45.1115 26.4415C43.8548 26.4415 42.6623 26.5708 41.4701 26.7645C42.7585 28.9554 43.5002 31.4689 43.5002 34.1431V39.3299H58V34.2709ZM19.3333 0.664062C24.6823 0.664062 29.0005 4.98124 29.0005 10.3311C29.0005 15.68 24.6833 19.9981 19.3347 19.9981C13.9857 19.9981 9.66848 15.6809 9.66848 10.3324C9.66622 4.98123 13.9848 0.664062 19.3333 0.664062Z" fill="url(#paint0_linear_101_5310)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_101_5310" x1="-4.46154" y1="2.59764" x2="23.0152" y2="58.0344" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7DAEEB"/>
+                                        <stop offset="1" stop-color="#3E7CCE"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="category__name">Социальная политика</div>
+                    </a>
+                    <a href="javascript:void(0)" class="swiper-slide category__item" onclick="openModal()">
+                        <div class="category__img">
+                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.7787 13.6665H18.2226V18.222H22.7787V13.6665ZM31.8893 13.6665H27.3333V18.222H31.8893V13.6665ZM38.7228 28.472C35.8762 28.472 33.1427 28.0165 30.5912 27.1736C29.7937 26.923 28.9053 27.1055 28.2673 27.7205L23.2562 32.7315C16.8097 29.4515 11.5256 24.19 8.24555 17.7435L13.257 12.71C13.895 12.0954 14.0775 11.207 13.8261 10.4099C12.984 7.85893 12.5286 5.12544 12.5286 2.27798C12.5286 1.02544 11.5035 0 10.251 0L2.27794 0.000884484C1.02539 0.000884484 0 1.02633 0 2.27886C0 23.6665 17.3342 41.0005 38.722 41.0005C39.975 41.0005 41 39.975 41 38.7225V30.7505C41 29.4979 39.975 28.4729 38.722 28.4729L38.7228 28.472ZM36.4453 13.6665V18.222H41V13.6665H36.4453Z" fill="url(#paint0_linear_101_5353)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_101_5353" x1="-3.15385" y1="2.05033" x2="31.9071" y2="49.2079" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#7DAEEB"/>
+                                        <stop offset="1" stop-color="#3E7CCE"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="category__name">Горячая линия</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="section-heading">
+                <div class="title-1">Новости</div>
+                <a href="javascript:void(0)" class="link link--arrow link--blue section-heading__link">
+                    <div>Все новости</div>
+                    <div class="icon link__arrow">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97489 6.00004L5.00001 9.97491L4.29291 9.26781L7.56067 6.00004L4.29291 2.73228L5.00002 2.02517L8.97489 6.00004Z" fill="white"/>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="swiper news__swiper">
+                <div class="swiper-wrapper">
+                    <a href="javascript:void(0)" class="swiper-slide news__item">
+                        <div class="news__img">
+                            <img src="images/news.jpg" alt="news" title="">
+                        </div>
+                        <div class="news__content">
+                            <div class="news__title">
+                                Филиал «Уренгой бурение» – участник Ямальского нефтегазового форума в Новом Уренгое
+                            </div>
+                            <div class="news__date">22 марта 2023</div>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="swiper-slide news__item">
+                        <div class="news__img">
+                            <img src="images/news.jpg" alt="news" title="">
+                        </div>
+                        <div class="news__content">
+                            <div class="news__title">
+                                Филиал «Уренгой бурение» – участник Ямальского нефтегазового форума в Новом Уренгое
+                            </div>
+                            <div class="news__date">22 марта 2023</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="activity">
+        <div class="container">
+            <div class="activity__item">
+                <div class="activity__content">
+                    <div class="activity__title">Опросы</div>
+                    <div class="activity__text">Нам важно Ваше мнение</div>
+                    <a href="javascript:void(0)" class="link link--arrow link--white activity__link" onclick="openModal()">
+                        <div>Перейти</div>
+                        <div class="icon link__arrow">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97489 6.00004L5.00001 9.97491L4.29291 9.26781L7.56067 6.00004L4.29291 2.73228L5.00002 2.02517L8.97489 6.00004Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="activity__img">
+                    <img src="images/img-survey.svg" alt="Опросы" title="">
+                </div>
+            </div>
+            <div class="activity__item">
+                <div class="activity__content">
+                    <div class="activity__title">Активный сотрудник</div>
+                    <div class="activity__text">Корпоративная программа лояльности</div>
+                    <a href="javascript:void(0)" class="link link--arrow link--white activity__link" onclick="openModal()">
+                        <div>Перейти</div>
+                        <div class="icon link__arrow">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97489 6.00004L5.00001 9.97491L4.29291 9.26781L7.56067 6.00004L4.29291 2.73228L5.00002 2.02517L8.97489 6.00004Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="activity__img">
+                    <img src="images/img-activity.svg" alt="Активный сотрудник" title="">
+                </div>
+            </div>
+            <div class="activity__item">
+                <div class="activity__content">
+                    <div class="activity__title">Проект «Есть ИДЕЯ!»</div>
+                    <div class="activity__text">Делитесь мыслями как сделать компанию лучше, а коллег счастливее</div>
+                    <a href="javascript:void(0)" class="link link--arrow link--white activity__link" onclick="openModal()">
+                        <div>Перейти</div>
+                        <div class="icon link__arrow">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.97489 6.00004L5.00001 9.97491L4.29291 9.26781L7.56067 6.00004L4.29291 2.73228L5.00002 2.02517L8.97489 6.00004Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="activity__img">
+                    <img src="images/img-idea.svg" alt="Проект «Есть ИДЕЯ!»" title="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social">
+        <div class="container">
+            <div class="social__container">
+                <div class="social__title">Следите за жизнью компании</div>
+                <div class="social__items">
+                    <a href="javascript:void(0)" class="social__link">
+                        <div class="social__icon">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 34C26.3888 34 34 26.3888 34 17C34 7.61116 26.3888 0 17 0C7.61116 0 0 7.61116 0 17C0 26.3888 7.61116 34 17 34Z" fill="#FEFEFE"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.8269 12.2141V18.2718C14.5835 18.3428 11.2737 20.3153 12.5304 24.468C13.958 28.9597 20.5781 27.9212 20.7636 24.5621C20.8743 23.3328 19.293 21.014 16.8056 22.8532V20.3196H22.7278V25.8716C20.0457 29.1527 12.6707 30.1898 9.39702 23.7945C6.8382 17.8592 11.3133 12.1653 16.8269 12.2141Z" fill="#1876D2"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.784 5.00073C16.7808 9.29027 16.6798 15.3541 19.784 19.8362C22.6055 15.771 23.0799 9.9389 19.784 5.00073ZM19.784 13.9937C18.8975 15.578 18.8975 17.3971 19.784 19.2533C20.6739 17.3971 20.6739 15.578 19.784 13.9937ZM18.2127 14.9032C17.7557 11.7541 18.0872 9.09948 19.784 6.03839C21.4807 9.09948 21.8127 11.7541 21.3614 14.9032C21.2337 12.861 20.9035 10.5009 19.784 8.5397C18.6644 10.5009 18.3342 12.861 18.2127 14.9032Z" fill="#1876D2"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="social__link">
+                        <div class="social__icon">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0993 24.5031C10.3392 24.5031 5.91639 19.1851 5.75391 10.3398H9.63393C9.7424 16.8245 12.6183 19.592 14.8705 20.1618V10.3398H18.5332V15.9563C20.7853 15.7123 23.1185 13.1618 23.9327 10.3398H27.5683C26.9715 13.813 24.421 16.3631 22.6032 17.3942C24.421 18.2624 27.3244 20.4876 28.4365 24.5031H24.394C23.5528 21.8171 21.3821 19.7279 18.5332 19.4565V24.5031H18.0993Z" fill="#1876D2"/>
+                                <path d="M17 0C7.62637 0 0 7.62637 0 17C0 26.3736 7.62637 34 17 34C26.3745 34 34 26.3736 34 17C34 7.62637 26.3745 0 17 0Z" fill="#FEFEFE"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.952 23.5039C11.2117 23.5039 7.36991 18.8846 7.22833 11.2012H10.5987C10.6932 16.8342 13.1915 19.2384 15.1474 19.7332V11.2012H18.3292V16.0801C20.2856 15.8679 22.3125 13.6524 23.0195 11.2012H26.1773C25.6589 14.2183 23.4434 16.4334 21.8647 17.329C23.4434 18.0831 25.9656 20.0159 26.9318 23.5039H23.4198C22.6893 21.1707 20.8039 19.356 18.3292 19.1203V23.5039H17.952Z" fill="#1876D2"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="social__link">
+                        <div class="social__icon">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 34C26.3888 34 34 26.3888 34 17C34 7.61116 26.3888 0 17 0C7.61116 0 0 7.61116 0 17C0 26.3888 7.61116 34 17 34Z" fill="#FEFEFE"/>
+                                <path d="M25.2171 12.7599C25.0559 11.8716 24.2892 11.2251 23.3997 11.023C22.0685 10.7407 19.6046 10.5391 16.9386 10.5391C14.2744 10.5391 11.7713 10.7407 10.4383 11.023C9.5501 11.2251 8.78207 11.8307 8.62089 12.7599C8.45841 13.7692 8.29767 15.1828 8.29767 16.9997C8.29767 18.8171 8.45841 20.2307 8.66054 21.24C8.82303 22.1283 9.58971 22.7747 10.4775 22.9768C11.8911 23.2591 14.314 23.4608 16.9796 23.4608C19.6456 23.4608 22.0685 23.2591 23.4816 22.9768C24.3698 22.7747 25.1365 22.1692 25.299 21.24C25.4597 20.2307 25.6619 18.7762 25.7028 16.9997C25.6209 15.1828 25.4188 13.7692 25.2171 12.7599ZM14.7588 19.8264V14.173L19.6847 16.9997L14.7588 19.8264Z" fill="#1876D2"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="social__link">
+                        <div class="social__icon">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 34C26.3888 34 34 26.3888 34 17C34 7.61116 26.3888 0 17 0C7.61116 0 0 7.61116 0 17C0 26.3888 7.61116 34 17 34Z" fill="#FEFEFE"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4903 0C16.4049 6.89148 15.9345 10.7645 13.3495 13.3495C10.7646 15.934 6.89104 16.4049 0 16.4903V17.5092C6.89104 17.595 10.7646 18.0655 13.3495 20.6504C15.9345 23.235 16.4049 27.1085 16.4903 33.9996H17.5097C17.5946 27.1085 18.0655 23.235 20.6505 20.6504C23.2346 18.065 27.1081 17.595 33.9996 17.5092V16.4903C27.1081 16.4049 23.2346 15.934 20.6505 13.3495C18.0651 10.7645 17.5946 6.89148 17.5097 0H16.4903Z" fill="#1876D2"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="social__link">
+                        <div class="social__icon">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M34 17C34 26.3884 26.3884 34 17 34C7.61156 34 0 26.3884 0 17C0 7.61199 7.61156 0 17 0C26.388 0 34 7.61199 34 17Z" fill="#FEFEFE"/>
+                                <path d="M6.4197 16.7597C12.3611 14.146 20.0493 10.9594 21.1114 10.5181C23.895 9.36418 24.7492 9.58509 24.3236 12.1422C24.0174 13.9796 23.1352 20.0634 22.4313 23.8498C22.0139 26.0954 21.0774 26.3616 19.605 25.3902C18.8971 24.9227 15.3228 22.5586 14.547 22.0036C13.8387 21.4979 12.8625 20.8893 14.0874 19.691C14.5231 19.2641 17.3803 16.5358 19.6063 14.4122C19.8977 14.1334 19.5314 13.6755 19.1946 13.8989C16.1941 15.8888 12.0344 18.6502 11.5047 19.0096C10.7049 19.5528 9.93645 19.8021 8.55772 19.4061C7.51572 19.1068 6.49811 18.7496 6.10214 18.6137C4.57617 18.09 4.9386 17.4118 6.4197 16.7597Z" fill="#1876D2"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="download">
+        <div class="container">
+            <a href="javascript:void(0)" class="download__link">
+                <div class="download__icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 15V13H1V15H15Z" fill="white"/>
+                        <path d="M11.535 5.05965L8.99379 7.5942L9.0059 1H7.0059L6.9938 7.59421L4.46463 5.05965L3.05041 6.47386L7.99379 11.4226L12.9492 6.47386L11.535 5.05965Z" fill="white"/>
+                    </svg>
+                </div>
+                <div>Установить приложение</div>
+            </a>
+        </div>
+    </div>
+</main>
+
+<div class="bottom-menu">
+    <div class="bottom-menu__items">
+        <a href="javascript:void(0)" class="bottom-menu__link active">
+            <div class="bottom-menu__icon">
+                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.937 9.22713L16.312 4.49688C15.3845 3.83437 14.1523 3.83437 13.238 4.49688L6.613 9.22713C5.91075 9.73063 5.5 10.5256 5.5 11.3869V21.9471C5.5 22.6759 6.09625 23.2721 6.825 23.2721H12.125V17.3221H17.425V23.2721H22.725C23.4537 23.2721 24.05 22.6759 24.05 21.9471V11.3869C24.05 10.5256 23.6392 9.73063 22.937 9.22713Z" fill="#97B2C4"/>
+                </svg>
+            </div>
+            <div>Главная</div>
+        </a>
+        <a href="javascript:void(0)" class="bottom-menu__link" onclick="openModal()">
+            <div class="bottom-menu__icon">
+                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.11111 12.9444H11.3333C12.4944 12.9444 13.4444 11.9944 13.4444 10.8333V6.61111C13.4444 5.45 12.4944 4.5 11.3333 4.5H7.11111C5.95 4.5 5 5.45 5 6.61111V10.8333C5 11.9944 5.95 12.9444 7.11111 12.9444Z" fill="#97B2C4"/>
+                    <path d="M7.11111 23.5H11.3333C12.4944 23.5 13.4444 22.55 13.4444 21.3889V17.1667C13.4444 16.0055 12.4944 15.0555 11.3333 15.0555H7.11111C5.95 15.0555 5 16.0055 5 17.1667V21.3889C5 22.55 5.95 23.5 7.11111 23.5Z" fill="#97B2C4"/>
+                    <path d="M15.5555 6.61111V10.8333C15.5555 11.9944 16.5055 12.9444 17.6667 12.9444H21.8889C23.05 12.9444 24 11.9944 24 10.8333V6.61111C24 5.45 23.05 4.5 21.8889 4.5H17.6667C16.5055 4.5 15.5555 5.45 15.5555 6.61111Z" fill="#004166" fill-opacity="0.2"/>
+                    <path d="M17.6667 23.5H21.8889C23.05 23.5 24 22.55 24 21.3889V17.1667C24 16.0055 23.05 15.0555 21.8889 15.0555H17.6667C16.5055 15.0555 15.5555 16.0055 15.5555 17.1667V21.3889C15.5555 22.55 16.5055 23.5 17.6667 23.5Z" fill="#97B2C4"/>
+                </svg>
+            </div>
+            <div>Кадры</div>
+        </a>
+        <a href="javascript:void(0)" class="bottom-menu__link" onclick="openModal()">
+            <div class="bottom-menu__icon">
+                <svg width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.2451 17.8672C14.1595 17.8672 8 19.4157 8 22.4897V23.6454C8 24.281 8.52004 24.801 9.15564 24.801H25.3346C25.9701 24.801 26.4902 24.281 26.4902 23.6454V22.4897C26.4902 19.4157 20.3306 17.8672 17.2451 17.8672Z" fill="#97B2C4"/>
+                    <path d="M12.3221 10.9335H22.1797C22.4917 10.9335 22.7459 10.6792 22.7459 10.3672V10.3441C22.7459 10.0321 22.4917 9.77782 22.1797 9.77782H21.8677C21.8677 8.06748 20.9316 6.59982 19.5564 5.79087V6.88873C19.5564 7.21231 19.3021 7.46655 18.9786 7.46655C18.655 7.46655 18.4007 7.21231 18.4007 6.88873V5.31706C18.0309 5.22461 17.6496 5.15527 17.2451 5.15527C16.8406 5.15527 16.4593 5.22461 16.0895 5.31706V6.88873C16.0895 7.21231 15.8352 7.46655 15.5116 7.46655C15.1881 7.46655 14.9338 7.21231 14.9338 6.88873V5.79087C13.5586 6.59982 12.6226 8.06748 12.6226 9.77782H12.3221C12.0101 9.77782 11.7558 10.0321 11.7558 10.3441V10.3788C11.7558 10.6792 12.0101 10.9335 12.3221 10.9335Z" fill="#97B2C4"/>
+                    <path d="M17.2451 15.5568C19.3946 15.5568 21.1858 14.0775 21.7059 12.0898H12.7844C13.3044 14.0775 15.0956 15.5568 17.2451 15.5568Z" fill="#97B2C4"/>
+                    <path d="M32.2453 7.73271L33.32 6.77353L32.4533 5.2712L31.0781 5.7219C30.9163 5.59478 30.7314 5.49077 30.5349 5.40988L30.246 4H28.5125L28.2236 5.40988C28.0272 5.49077 27.8423 5.59478 27.6689 5.7219L26.3053 5.2712L25.4386 6.77353L26.5133 7.73271C26.4902 7.92916 26.4902 8.13718 26.5133 8.33364L25.4386 9.31593L26.3053 10.8183L27.692 10.3791C27.8423 10.4947 28.0156 10.5871 28.189 10.668L28.5125 12.0895H30.246L30.558 10.6796C30.7429 10.5987 30.9047 10.5062 31.0665 10.3907L32.4417 10.8298L33.3084 9.32749L32.2337 8.34519C32.2684 8.12562 32.2568 7.92916 32.2453 7.73271ZM29.3793 9.48927C28.5819 9.48927 27.9347 8.84212 27.9347 8.04473C27.9347 7.24734 28.5819 6.60018 29.3793 6.60018C30.1767 6.60018 30.8238 7.24734 30.8238 8.04473C30.8238 8.84212 30.1767 9.48927 29.3793 9.48927Z" fill="#004166" fill-opacity="0.2"/>
+                    <path d="M29.2637 13.0028L28.2814 13.3264C28.1659 13.2339 28.0388 13.1646 27.9001 13.1068L27.6921 12.0898H26.4555L26.2475 13.0952C26.1088 13.153 25.9702 13.2339 25.8546 13.3148L24.8839 12.9912L24.2598 14.066L25.0225 14.7478C25.011 14.898 25.011 15.0367 25.0225 15.1754L24.2598 15.8803L24.8839 16.9551L25.8777 16.6431C25.9933 16.7239 26.1088 16.7933 26.236 16.8511L26.444 17.868H27.6805L27.9001 16.8626C28.0272 16.8048 28.1543 16.7355 28.2699 16.6546L29.2522 16.9666L29.8762 15.8919L29.1135 15.187C29.1251 15.0367 29.1251 14.898 29.1135 14.7594L29.8762 14.0775L29.2637 13.0028ZM27.068 16.0075C26.5018 16.0075 26.0395 15.5452 26.0395 14.9789C26.0395 14.4127 26.5018 13.9504 27.068 13.9504C27.6343 13.9504 28.0965 14.4127 28.0965 14.9789C28.0965 15.5452 27.6343 16.0075 27.068 16.0075Z" fill="#004166" fill-opacity="0.2"/>
+                </svg>
+            </div>
+            <div>ОТиПБ</div>
+        </a>
+        <a href="javascript:void(0)" class="bottom-menu__link" onclick="openModal()">
+            <div class="bottom-menu__icon">
+                <div class="counter bottom-menu__counter">3</div>
+                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.09 4.59C16.71 4.21 16.2 4 15.67 4H8.5C7.4 4 6.5 4.9 6.5 6V22C6.5 23.1 7.39 24 8.49 24H20.5C21.6 24 22.5 23.1 22.5 22V10.83C22.5 10.3 22.29 9.79 21.91 9.42L17.09 4.59ZM17.5 20H11.5C10.95 20 10.5 19.55 10.5 19C10.5 18.45 10.95 18 11.5 18H17.5C18.05 18 18.5 18.45 18.5 19C18.5 19.55 18.05 20 17.5 20ZM17.5 16H11.5C10.95 16 10.5 15.55 10.5 15C10.5 14.45 10.95 14 11.5 14H17.5C18.05 14 18.5 14.45 18.5 15C18.5 15.55 18.05 16 17.5 16ZM15.5 10V5.5L21 11H16.5C15.95 11 15.5 10.55 15.5 10Z" fill="#004166" fill-opacity="0.2"/>
+                    <path d="M17.5 20H11.5C10.95 20 10.5 19.55 10.5 19C10.5 18.45 10.95 18 11.5 18H17.5C18.05 18 18.5 18.45 18.5 19C18.5 19.55 18.05 20 17.5 20ZM17.5 16H11.5C10.95 16 10.5 15.55 10.5 15C10.5 14.45 10.95 14 11.5 14H17.5C18.05 14 18.5 14.45 18.5 15C18.5 15.55 18.05 16 17.5 16Z" fill="#97B2C4"/>
+                </svg>
+            </div>
+            <div>Документы</div>
+        </a>
+        <a href="javascript:void(0)" class="bottom-menu__link">
+            <div class="bottom-menu__icon">
+                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.7215 19.0345H13.4085C12.7724 19.0345 12.252 18.5141 12.252 17.878H4.16806V22.504C4.16806 23.7761 5.20892 24.817 6.48107 24.817H22.6605C23.9326 24.817 24.9735 23.7761 24.9735 22.504V17.878H16.878C16.878 18.5141 16.3576 19.0345 15.7215 19.0345ZM23.817 8.626H19.191C19.191 6.07013 17.1209 4 14.565 4C12.0091 4 9.939 6.07013 9.939 8.626H5.313C4.04085 8.626 3 9.66685 3 10.939V14.4085C3 15.6922 4.02928 16.7215 5.313 16.7215H12.252V15.565C12.252 14.9289 12.7724 14.4085 13.4085 14.4085H15.7215C16.3576 14.4085 16.878 14.9289 16.878 15.565V16.7215H23.817C25.0891 16.7215 26.13 15.6806 26.13 14.4085V10.939C26.13 9.66685 25.0891 8.626 23.817 8.626ZM12.252 8.626C12.252 7.35385 13.2928 6.313 14.565 6.313C15.8371 6.313 16.878 7.35385 16.878 8.626H12.2404H12.252Z" fill="#004166" fill-opacity="0.2"/>
+                    <rect x="12.252" y="14.4082" width="4.626" height="4.626" rx="1" fill="#97B2C4"/>
+                </svg>
+            </div>
+            <div>Компания</div>
+        </a>
+    </div>
+</div>
+
+<div class="overlay"></div>
+<div id="modal" class="modal">
+    <div class="modal__container">
+        <div class="modal__content">
+            <div></div>
+            <div class="modal__title">Функция временно недоступна или еще не реализована в текущей версии системы</div>
+            <div class="modal__text">
+                Информация о новых функциях системы появляется на странице "Главная". Там же публикуются уведомления
+                о временном ограничении на работу функций для проведения технических работ.
+            </div>
+            <a href="javascript:void(0)" class="btn modal__btn" onclick="closeModal()">Понятно</a>
+        </div>
+    </div>
+</div>
+
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

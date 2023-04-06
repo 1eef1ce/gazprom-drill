@@ -1,0 +1,32 @@
+@import "../../variables";
+
+.social {
+
+  &__container {
+    margin-top: 16px;
+    padding: 16px 12px 23px;
+    background: $color-blue;
+    border-radius: 12px;
+  }
+
+  &__title {
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -12px;
+  }
+
+  &__link {
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    margin: 0 12px;
+  }
+}

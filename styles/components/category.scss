@@ -1,0 +1,29 @@
+@import "../../variables";
+
+.category {
+
+  &__swiper {
+    padding: 0 16px;
+    margin: 0 -16px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 88px;
+    height: 116px;
+    padding: 9px 8px;
+    background: linear-gradient(37.18deg, #3775CB 58.09%, #6EA0DD 100.25%);
+    border-radius: 12px;
+  }
+
+  &__img {
+    height: 52px;
+  }
+
+  &__name {
+    margin-top: auto;
+    color: #fff;
+    letter-spacing: 0.001em;
+  }
+}

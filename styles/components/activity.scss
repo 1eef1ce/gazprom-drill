@@ -1,0 +1,46 @@
+@import "../../variables";
+
+.activity {
+
+  &__item {
+    display: flex;
+    min-height: 120px;
+    margin-top: 16px;
+    padding: 16px 12px 10px;
+    border-radius: 12px;
+    background: linear-gradient(260.8deg, rgba(125, 174, 235, 0.25) 25.08%, rgba(67, 128, 208, 0.88) 65.95%, #2161AC 95.67%);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 190px;
+    color: #fff;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  &__text {
+    margin-top: 11px;
+  }
+
+  &__link {
+    margin-top: auto;
+  }
+
+  &__img {
+    width: 118px;
+    height: 84px;
+    margin-left: auto;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

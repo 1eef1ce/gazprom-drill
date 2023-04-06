@@ -1,0 +1,107 @@
+@import "variables";
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: unset;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+button {
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: #fff;
+  font-family: $font-primary, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: $color-primary;
+  letter-spacing: -0.408px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 16px;
+}
+
+.title-1 {
+  margin: 11px 0;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.29;
+}
+
+.icon {
+  display: inline-flex;
+
+  svg {
+    width: 100%;
+    height: 100%;
+
+    * {
+      fill: currentColor;
+    }
+  }
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    margin-left: auto;
+  }
+}
+
+.counter {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  background: $color-red;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 0.001em;
+}
+
+
+/*UI*/
+@import "styles/ui/bottom-menu";
+@import "styles/ui/button";
+@import "styles/ui/link";
+@import "styles/ui/modal";
+
+/*Components*/
+@import "styles/components/activity";
+@import "styles/components/category";
+@import "styles/components/download";
+@import "styles/components/header";
+@import "styles/components/news";
+@import "styles/components/social";

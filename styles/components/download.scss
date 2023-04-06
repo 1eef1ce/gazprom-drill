@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.download {
+  margin: 20px 0;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 16px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 32, 51, 0.1);
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin-right: 16px;
+    background: $color-blue;
+    border-radius: 6px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
