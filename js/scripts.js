@@ -9,6 +9,10 @@ const newsSwiper = new Swiper('.news__swiper', {
     spaceBetween: 12
 });
 
+const newsGallerySwiper = new Swiper('.news-gallery__swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 8
+});
 
 //modal
 const modal = document.getElementById('modal');

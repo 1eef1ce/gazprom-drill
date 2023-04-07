@@ -23,5 +23,9 @@
     height: 12px;
     margin-left: 4px;
     color: inherit;
+
+    &--left {
+      transform: scale(-1, 1);
+    }
   }
 }

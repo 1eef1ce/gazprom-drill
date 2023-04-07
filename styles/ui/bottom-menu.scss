@@ -39,6 +39,10 @@
     position: relative;
     height: 28px;
     margin-bottom: 2px;
+
+    svg {
+      height: 100%;
+    }
   }
 
   &__counter {

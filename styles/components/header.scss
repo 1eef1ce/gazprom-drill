@@ -3,11 +3,30 @@
 .header {
   position: sticky;
   top: 0;
+  margin: 6px 0;
   padding: 10px 0;
   background: #fff;
   z-index: 100;
 
+  &--page {
+
+    .title-1 {
+      margin: 0 auto;
+    }
+
+    .link {
+      position: absolute;
+      left: 16px;
+      color: $color-secondary;
+
+      &__arrow {
+        margin: 0;
+      }
+    }
+  }
+
   &__container {
+    position: relative;
     display: flex;
     align-items: center;
   }

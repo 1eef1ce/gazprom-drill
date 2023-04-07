@@ -1,0 +1,23 @@
+@import "../../variables";
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -4px;
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    padding: 4px 12px;
+    margin: 4px;
+    border-radius: 10px;
+    background: $bg-border;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 1;
+    color: #fff;
+  }
+}
